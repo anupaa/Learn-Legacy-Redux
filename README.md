@@ -1,17 +1,12 @@
-## Running React on Replit
+# Redux Legacy Example App
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+This application demonstrates how to use legacy Redux in a React application. It covers setting up the Redux store, defining reducers and action creators, and connecting Redux to React components.
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
-
-Using the two in conjunction is one of the fastest ways to build a web app.
-
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
-
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
-
-### Typescript
-
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+## Table of Contents
+- [Introduction](#introduction)
+- [Setup](#setup)
+- [Store Configuration](#store-configuration)
+- [Reducers](#reducers)
+- [Action Creators](#action-creators)
+- [Connecting Redux to React](#connecting-redux-to-react)
+- [Running the App](#running-the-app)
